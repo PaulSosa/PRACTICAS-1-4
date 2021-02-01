@@ -1,0 +1,230 @@
+<!DOCTYPE html> 
+  <head> 
+    <title>Practica 9</title> 
+    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    </head>
+<body> 
+    <div class="container">
+
+        <form>
+            <br><br>
+            <h1><center>El calentamiento Global</h1></center>
+            <br><br>
+
+            <div class="form-group">         
+              <label for="control1">Del 1 al 5, cuanto crees que afecta el calentamiento global: </label> 
+              <select class="form-control" id="control1" name="control1"> 
+                  <option>1</option> 
+                  <option>2</option>
+                  <option>3</option> 
+                  <option>4</option> 
+                  <option>5</option> 
+              </select> 
+            </div>
+            
+            
+            <form>
+                <div class="form-group">
+                  <button type="submit" class="btn btn-primary">
+                  Aumento de los efectos invernaderos: La excesiva actividad industrial que se ha registrado en el mundo a partir de la Revolución Industrial es la principal causa<br> del calentamiento global.</button>       
+                </div> 
+                <div class="form-group">
+                  <button type="submit" class="btn btn-secondary">
+                  Quema de combustibles fosiles: Una buena parte de los gases de efecto invernadero se generan tras la quema de combustibles fósiles, es decir, todos aquellos <br>que se derivan de productos como el carbón, el petróleo y el gas natural.</button>       
+                </div>       
+                <div class="form-group">
+                  <button type="submit" class="btn btn-success">
+                  Deforestación de selvas y bosques: el daño que se genera es global. Los árboles tienen la facultad de convertir el CO2 en oxígeno a través del proceso de la fotosíntesis,</button>       
+                </div> 
+                <div class="form-group">
+                  <button type="submit" class="btn btn-info">
+                  Excesivo uso de fertilizantes: Los pesticidas, fertilizantes y demás químicos empleados en sectores como la agricultura y la ganadería son otra causa directa<br> del calentamiento global.</button>       
+                </div> 
+                <div class="form-group">
+                  <button type="submit" class="btn btn-warning">
+                  Alta produccion de residuos: Cuantos más residuos produzcamos a diario, mayores serán los niveles de gas metano en el ambiente, un elemento que se genera durante<br> la descomposición de materiales en los vertederos.</button>       
+                </div> 
+            
+        
+            
+            
+            
+            
+            <div class="form-group">
+              <label for="control2">Cual cree que es lo que mas afecta al planeta (Puede elegir varios): </label> 
+              <select multiple class="form-control" id="control2" name="control2"> 
+                  <option>Aumento de los gases de efecto invernadero</option> 
+                  <option>Quema de combustibles fósiles.</option>
+                  <option>Deforestación de selvas y bosques.</option> 
+                  <option>Excesivo uso de fertilizantes.</option> 
+                  <option>Alta producción de residuos.</option>       
+              </select>      
+            </div>  
+            <button type="submit" class="btn btn-default">Enviar</button><br>
+          </form>
+
+          <form>
+            <div class="form-group row">
+              <label for="usuario" class="col-lg-3 col-form-label">Nombre de usuario:</label>
+              <div class="col-lg-9">
+                <input type="text" class="form-control" id="usuario">
+              </div>
+            </div>
+            <div class="form-group row">
+              <label for="clave" class="col-lg-3 col-form-label">Ingrese clave:</label>
+              <div class="col-lg-9">
+                <input type="password" class="form-control" id="clave">
+              </div>
+            </div>
+            <div class="form-group row">
+              <div class="offset-lg-3 col-lg-9">
+                <button type="submit" class="btn btn-default">Entrar</button>
+              </div> 
+            </div>
+          </form>
+        
+      </div>       
+
+      <br><br>
+      <h3>Ejemplo de lo que se hara en el siguiente punto: </h3>
+      <br><br>
+      <form>
+        <fieldset disabled> 
+          <div class="form-group">
+            <label for="usuario">Nombre de usuario:</label>
+            <input type="text" class="form-control" id="usuario" name="usuario" placeholder="Aqui pone su nombre">
+          </div>
+          <div class="form-group">
+            <label for="clave">Ingrese propuesta:</label>
+            <input type="text" class="form-control" id="text" name="text" placeholder="Aqui pone su propuesta (una diferente en cada casilla).">
+          </div>
+        </fieldset>
+        <div class="form-check">
+          <input disabled class="form-check-input" type="checkbox" value="" id="checkbox1" name="checkbox1">
+          <label class="form-check-label" for="checkbox1">
+            Aceptar términos y condiciones (siempre marcar esta casilla)
+          </label>
+        </div>
+      </form>
+      <br><br>
+
+
+
+
+
+
+
+
+      <h1>Propuestas para ayudar al calentamiento global: </h1>
+      <br><br>
+      <form class="form-inline">
+        <label for="mail" class="mr-sm-2">mail:</label>
+        <input type="email" class="form-control mr-sm-2" id="mail">
+        <div class="form-check">
+        </div>
+        <button type="submit" class="btn btn-default ml-sm-2">registrar</button>
+      </form>
+
+      <p><strong>de menor importancia: </strong></p>
+    <form>
+      <div class="form-group"> 
+        <label for="nombre2">Ingrese su nombre:</label>
+        <input type="text" class="form-control form-control-sm" id="nombre2" name="nombre2">
+      </div> 
+      <div class="form-group"> 
+        <label for="clave2">Ingrese su propuesta:</label>
+        <input type="text" class="form-control form-control-sm" id="text2" name="text2">
+      </div> 
+      <button type="submit" class="btn btn-default">Enviar</button>       
+    </form>
+
+    <p><strong>de mayor importancia: </strong></p>
+    <form>
+      <div class="form-group"> 
+        <label for="nombre3">Ingrese su nombre:</label>
+        <input type="text" class="form-control form-control-lg" id="nombre3" name="nombre3">
+      </div> 
+      <div class="form-group"> 
+        <label for="clave3">Ingrese su propuesta:</label>
+        <input type="text" class="form-control form-control-lg" id="text3" name="text3">
+      </div> 
+      <button type="submit" class="btn btn-default">Enviar</button>       
+    </form>
+
+    <p><strong>de importancia: </strong></p>
+    <form>
+      <div class="form-group"> 
+        <label for="nombre">Ingrese su nombre:</label>
+        <input type="text" class="form-control" id="nombre" name="nombre">
+      </div> 
+      <div class="form-group"> 
+        <label for="clave">Ingrese su propuesta:</label>
+        <input type="text" class="form-control" id="text" name="text">
+      </div> 
+      <button type="submit" class="btn btn-default">Enviar</button>       
+    </form>
+
+    <br><br><br>
+    <form>
+        <div class="form-group"> 
+          <label for="nombre">Como definiria esta pagina con una sola palabra:</label>
+          <input type="text" class="form-control" id="nombre" name="nombre">
+          <small class"form-text text-muted">No ingrese espacios en blanco.</small>        
+        </div> 
+        <div class="form-group"> 
+          <label for="clave">Su contraseña:</label>
+          <input type="password" class="form-control" id="password" name="password">
+          <small class"form-text text-muted">Debe tener al menos 10 caracteres, de los cuales al menos uno debe ser un número.</small>
+        </div>
+        <br> 
+        <button type="submit" class="btn btn-default">Enviar</button>       
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" value="" id="checkbox1" name="checkbox1">
+        <label class="form-check-label" for="checkbox1">
+            Aceptar términos y condiciones.
+          </label>
+      </form>
+
+      
+
+      
+      <br><br>
+      <br><br>
+      <form>
+          <h3>Que le parecio esta pagina:</h3><br>
+        <button type="submit" class="btn btn-primary btn-sm">Excelente</button><br><br>     
+        <button type="submit" class="btn btn-primary btn-lg">regular</button><br><br>
+        <button type="submit" class="btn btn-primary">Mala</button>
+        <hr>
+        <button type="submit" class="btn btn-primary btn-sm btn-block">btn-sm btn-block: tamaño pequeño</button>
+        <button type="submit" class="btn btn-primary btn-lg btn-block">btn-lg btn-block: tamaño grande</button>       
+        <button type="submit" class="btn btn-primary btn-block">btn-block: tamaño normal</button>       
+     </form>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+</body> 
+</html> 
